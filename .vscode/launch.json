@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RatingserviceApplication",
+            "request": "launch",
+            "mainClass": "com.lcwd.rating.ratingservice.RatingserviceApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "HotelserviceApplication",
             "request": "launch",
             "mainClass": "com.lcwd.hotel.hotelservice.HotelserviceApplication",
