@@ -1,6 +1,7 @@
 package com.lcwd.rating.ratingservice.controllers;
 
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -27,6 +28,7 @@ public class RatingController {
     @PostMapping
     public ResponseEntity<Rating> create(@RequestBody Rating rating){
        
+        //StringUUID.randomUUID().toString();
         return ResponseEntity.status(HttpStatus.CREATED).body(ratingService.create(rating));
     }
     //get all

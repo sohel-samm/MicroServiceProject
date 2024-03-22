@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ServiceregistryApplication",
+            "request": "launch",
+            "mainClass": "com.lcwd.serviceregistry.serviceregistry.ServiceregistryApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "RatingserviceApplication",
             "request": "launch",
             "mainClass": "com.lcwd.rating.ratingservice.RatingserviceApplication",
