@@ -1,6 +1,7 @@
 package com.lcwd.user.service.userservice.entities;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -9,6 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
+@Builder
 public class Rating {
 
 
@@ -17,5 +19,6 @@ public class Rating {
     private String hotelId;
     private int rating;
     private String feedback;
+    private Hotel hotel;
 
 }
